@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="courseName" value="selenium"/>
+  <parameter name="cityName" value="Delhi"/>
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="testng.failedtestrun.IAnnotation"/>
+  </listeners>
+  <test thread-count="5" name="D:/repo1/clone/TestFolder/Demo/Maven_7_Jan_2025(failed)">
+    <classes>
+      <class name="testng.basicsoftestng.PriorityExample">
+        <methods>
+          <include name="testCaseM"/>
+        </methods>
+      </class> <!-- testng.basicsoftestng.PriorityExample -->
+    </classes>
+  </test> <!-- D:/repo1/clone/TestFolder/Demo/Maven_7_Jan_2025(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

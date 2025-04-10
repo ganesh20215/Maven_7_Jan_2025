@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="courseName" value="selenium"/>
+    <parameter name="cityName" value="Delhi"/>
+    <parameter name="browserName" value="firefox"/>
+    <listeners>
+        <listener class-name="testng.failedtestrun.IAnnotation"/>
+    </listeners>
+    <test verbose="5" preserve-order="true" parallel="false" thread-count="3" name="D:/repo1/clone/TestFolder/Demo/Maven_7_Jan_2025">
+        <classes>
+            <class name="testng.basicsoftestng.PriorityExample"/>
+        </classes>
+    </test>
+</suite>
