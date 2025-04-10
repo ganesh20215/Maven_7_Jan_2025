@@ -11,7 +11,7 @@ public class ParallelExacution {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.edso.in");
         driver.manage().window().maximize();
-        driver.close();
+		System.out.println("Hello People");
     }
 
     @Test
