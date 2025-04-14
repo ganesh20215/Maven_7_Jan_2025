@@ -8,7 +8,7 @@ public class PriorityExample {
 
     @Test(priority = 1, enabled = true)
     public void testCaseZ() {
-        System.out.println("test case Z");
+       
     }
 
     @Test(priority = 'a', groups = "smoke")
